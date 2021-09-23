@@ -217,15 +217,14 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                   InlineKeyboardButton("𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝙷𝚎𝚕𝚙", callback_data="help_data")
+                   InlineKeyboardButton("Thanks for using me", callback_data="help_data")
                 ],
                 [
-                   InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
-                   InlineKeyboardButton("🤖Bot List", url="https://t.me/Mo_Tech_YT/176"),
-                   InlineKeyboardButton("👨‍💻Source", url="https://youtu.be/KrpqqNNLUSU")
+                   InlineKeyboardButton("Group", url="https://t.me/Tamil_RockersGroup"),
+                   InlineKeyboardButton("Channel", url="https://t.me/Movie_market_new_releases")
                 ],
                 [
-                   InlineKeyboardButton("🔻 Subscribe Now YouTube 🔻", url="https://youtu.be/KrpqqNNLUSU")
+                   InlineKeyboardButton("🔻Official Group🔻", url="https://t.me/all_super_movies")
                 ]
             ]
         ),
@@ -251,11 +250,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
+                    InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Tamil_RockersGroup"),
                     InlineKeyboardButton("About Me👨‍💼", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("🖥️ 𝙷𝚘𝚠 𝚝𝚘 𝙳𝚎𝚙𝚕𝚘𝚢 🖥️", url="https://youtu.be/KrpqqNNLUSU")
+                    InlineKeyboardButton("🖥️ want a bot? 🖥️", url="https://t.me/geronimo1234")
                 ]
             ]
         ),
@@ -272,7 +271,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "⛓️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ⛓️", url="https://github.com/MRK-YT/Unlimited-Filter-Bot")
+                        "⛓️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ⛓️", url="https://github.com/hnhnhnhnhnlkhfbdff")
                 ],
                 [
                     InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
